@@ -20,6 +20,15 @@
     <string name="rate_limit_error">Too fast! Try again in a bit.</string>
     <string name="multiple_request_error">An action is already in progress.</string>
 
+    <!-- Registration -->
+    <string name="register_personal">Personal</string>
+    <string name="register_economic">Economic</string>
+    <string name="register_political">Political</string>
+    <string name="register_strongly_disagree">Strongly Disagree</string>
+    <string name="register_disagree">Disagree</string>
+    <string name="register_agree">Agree</string>
+    <string name="register_strongly_agree">Strongly Agree</string>
+
     <!-- Navigation drawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

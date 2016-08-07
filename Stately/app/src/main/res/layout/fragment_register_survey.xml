@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:padding="16dp"
+    tools:layout_marginLeft="60dp"
+    tools:layout_marginRight="60dp">
+    <TextView
+        android:id="@+id/register_survey_content"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        tools:text="A country should be judged by how it treats its worst-off citizens." />
+    <RadioGroup
+        android:id="@+id/register_radio_group"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/register_strongly_disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_strongly_disagree"
+            android:textSize="16sp"/>
+        <RadioButton android:id="@+id/register_disagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/register_disagree"
+            android:textSize="16sp"/>
+        <RadioButton android:id="@+id/register_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_agree"
+            android:textSize="16sp"/>
+        <RadioButton android:id="@+id/register_strongly_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_strongly_agree"
+            android:textSize="16sp"/>
+    </RadioGroup>
+</LinearLayout>
